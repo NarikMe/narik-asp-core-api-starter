@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{45E3F48F-DFF5-4EFC-993B-88B024183C21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{3C278A87-8DF4-4633-9403-5341976B367B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{9A63DEEF-10C2-4CA9-9949-2A90F8BEC1B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NarikStarter.Data", "Data\NarikStarter.Data\NarikStarter.Data.csproj", "{40976CDE-49A2-48C7-8669-83A6835CF40F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NarikStarter.Modules.Demo", "Modules\NarikStarter.Modules.Demo\NarikStarter.Modules.Demo.csproj", "{ECC42386-A454-4C22-B455-555EEF1DD7BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NarikStarter.Test", "Test\NarikStarter.Test\NarikStarter.Test.csproj", "{8353CBD6-05BF-44DB-A8A2-724DCF815D2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NarikStarter.Web", "NarikStarter.Web\NarikStarter.Web.csproj", "{20204E0E-C305-41DB-BE10-DF51A7E93612}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40976CDE-49A2-48C7-8669-83A6835CF40F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40976CDE-49A2-48C7-8669-83A6835CF40F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40976CDE-49A2-48C7-8669-83A6835CF40F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40976CDE-49A2-48C7-8669-83A6835CF40F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECC42386-A454-4C22-B455-555EEF1DD7BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECC42386-A454-4C22-B455-555EEF1DD7BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECC42386-A454-4C22-B455-555EEF1DD7BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECC42386-A454-4C22-B455-555EEF1DD7BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8353CBD6-05BF-44DB-A8A2-724DCF815D2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8353CBD6-05BF-44DB-A8A2-724DCF815D2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8353CBD6-05BF-44DB-A8A2-724DCF815D2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8353CBD6-05BF-44DB-A8A2-724DCF815D2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20204E0E-C305-41DB-BE10-DF51A7E93612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20204E0E-C305-41DB-BE10-DF51A7E93612}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20204E0E-C305-41DB-BE10-DF51A7E93612}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20204E0E-C305-41DB-BE10-DF51A7E93612}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{40976CDE-49A2-48C7-8669-83A6835CF40F} = {45E3F48F-DFF5-4EFC-993B-88B024183C21}
+		{ECC42386-A454-4C22-B455-555EEF1DD7BB} = {3C278A87-8DF4-4633-9403-5341976B367B}
+		{8353CBD6-05BF-44DB-A8A2-724DCF815D2D} = {9A63DEEF-10C2-4CA9-9949-2A90F8BEC1B9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E744064B-C312-4E64-89BC-71A015F4E801}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://abadakhshan.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Data\\NarikStarter.Data\\NarikStarter.Data.csproj
+		SccProjectTopLevelParentUniqueName1 = NarikStarter.sln
+		SccProjectName1 = Data/NarikStarter.Data
+		SccLocalPath1 = Data\\NarikStarter.Data
+		SccProjectUniqueName2 = Test\\NarikStarter.Test\\NarikStarter.Test.csproj
+		SccProjectTopLevelParentUniqueName2 = NarikStarter.sln
+		SccProjectName2 = Test/NarikStarter.Test
+		SccLocalPath2 = Test\\NarikStarter.Test
+		SccProjectUniqueName3 = NarikStarter.Web\\NarikStarter.Web.csproj
+		SccProjectName3 = NarikStarter.Web
+		SccLocalPath3 = NarikStarter.Web
+		SccProjectUniqueName4 = Modules\\NarikStarter.Modules.Demo\\NarikStarter.Modules.Demo.csproj
+		SccProjectTopLevelParentUniqueName4 = NarikStarter.sln
+		SccProjectName4 = Modules/NarikStarter.Modules.Demo
+		SccLocalPath4 = Modules\\NarikStarter.Modules.Demo
+	EndGlobalSection
+EndGlobal

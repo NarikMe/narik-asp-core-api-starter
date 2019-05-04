@@ -1,0 +1,19 @@
+﻿{
+  "NarikModulesConfig": {
+    "modules": [
+      {
+        "key": "NarikStarter",
+        "assemeblyName": "NarikStarter.Modules.Demo.dll",
+        "initOrder": "1"
+      }
+    ],
+    "secret": "THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING",
+    "useCamelCase": true,
+    "authenticationMode": "Jwt",
+    "odataMaxTop": "1000",
+    "addDefaultAuthorizeFilter": true,
+    "connectionStringKey": "DbContextDB",
+    "apiPrefixes": "api,odata",
+    "appDirectories": ""
+  }
+}
