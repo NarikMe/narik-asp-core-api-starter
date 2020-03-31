@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>NarikStarter.Modules.Demo</RootNamespace>
     <AssemblyName>NarikStarter.Modules.Demo</AssemblyName>
   </PropertyGroup>
@@ -18,17 +18,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoMapper" Version="8.0.0" />
-    <PackageReference Include="CommonServiceLocator" Version="2.0.4" />
-    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
-    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.2" />
-    <PackageReference Include="Microsoft.AspNetCore.OData" Version="7.1.0" />
-    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
-    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="2.2.0" />
-    <PackageReference Include="Narik.Common.Web.Infrastructure" Version="1.0.12" />
-    <PackageReference Include="nQuant.Core.NETStandard" Version="1.0.0" />
-    <PackageReference Include="Unity.Abstractions" Version="4.0.3" />
+    <PackageReference Include="Narik.Common.Web.Infrastructure" Version="3.0.0" />
   </ItemGroup>
 
   <ItemGroup>

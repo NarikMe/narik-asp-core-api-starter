@@ -3,7 +3,7 @@
     "modules": [
       {
         "key": "NarikStarter",
-        "assemeblyName": "NarikStarter.Modules.Demo.dll",
+        "assemblyName": "NarikStarter.Modules.Demo.dll",
         "initOrder": "1"
       }
     ],

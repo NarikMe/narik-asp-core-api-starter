@@ -2,6 +2,7 @@
 using AutoMapper;
 using Narik.Common.Shared.Models;
 using NarikStarter.Data.Model;
+using NarikStarter.Modules.Demo._Role;
 using NarikStarter.Modules.Demo._UserAccount;
 
 namespace NarikStarter.Modules.Demo
@@ -17,6 +18,11 @@ namespace NarikStarter.Modules.Demo
 
             CreateMap<UserAccount, UserAccountViewModel>()
                 .ForMember(x => x.Password, x => x.MapFrom(s => "$$default"));
+            CreateMap<UserAccountViewModel, UserAccount>();
+
+
+            CreateMap<Role, RoleViewModel>();
+            CreateMap<RoleViewModel, Role>();
 
         }
     }
